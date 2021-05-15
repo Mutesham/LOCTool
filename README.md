@@ -13,6 +13,17 @@ Following all the comment conventions, the comment lines are considered. The com
 1.	Total number of code lines in the file.  
 Any line which is neither a comment nor a code line nor a blank line is considered as a code line in this scenario[2]. 
 
+##### Sample output 
+![Output_1](https://user-images.githubusercontent.com/47337879/118347223-8a0a4d80-b50f-11eb-8075-6eeb15527fed.jpg)
+
+How to run the program:
+(*you need the Maven (3.6.3) and Java (13.0.2) versions*)
+- Clean the project and generate an executable JAR with dependencies.
+ `mvn clean`
+ `mvn install`
+- Now, there should be a new folder called target and the executable JAR with
+dependencies named assignment-1.0.jar should be inside the target folder.
+- Now, run the jar file and get the results
 
 References:
 1.http://www.assafelovic.com/
